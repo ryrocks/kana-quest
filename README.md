@@ -4,6 +4,10 @@ Kana Quest is a short, game-like learning experience for memorizing the 46 basic
 
 ![Kana Quest social preview](public/og.png)
 
+## Live Demo
+
+[Play Kana Quest online](https://kana-quest.raymond-yeh-8e8.workers.dev)
+
 ## Features
 
 - Learn hiragana and katakana as paired representations of the same sound.
