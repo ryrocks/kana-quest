@@ -63,6 +63,10 @@ Kana Quest does not require an account or database. Learning progress is stored 
 
 Issues and focused pull requests are welcome. Please run `npm run lint` and `npm test` before submitting a change. New interface languages should include complete UI messages, ten journey stop names, and mnemonic hints for all 46 kana.
 
+## Contact
+
+For project or commercial enquiries, contact [hello@milkfish.digital](mailto:hello@milkfish.digital).
+
 ## License
 
 Kana Quest is available under the [MIT License](LICENSE).
