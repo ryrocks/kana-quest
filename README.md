@@ -45,10 +45,24 @@ The development server is available at `http://localhost:3000` by default.
 
 ```bash
 npm run lint
+npm run typecheck
 npm test
 ```
 
 The full test command runs unit tests, creates a production build, and verifies server-rendered HTML for the root page and every supported locale.
+
+## Deployment
+
+Kana Quest is configured for Cloudflare Workers. Authenticate Wrangler once, validate the checked-in configuration, and deploy:
+
+```bash
+npx wrangler login
+npm run cf:types
+npm run deploy:check
+npm run deploy
+```
+
+The default deployment uses Cloudflare's free `workers.dev` domain. No database, object storage, or paid binding is required.
 
 ## Technology
 
