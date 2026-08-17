@@ -3,7 +3,7 @@
 :root {
   /* 和紙・弁柄: screen-safe interpretations of traditional Japanese colours. */
   --ink: #1e2a2f;
-  --ink-soft: #5f6765;
+  --ink-soft: #59615f;
   --paper: #f7f0e3;
   --paper-light: #fffcf5;
   --paper-deep: #eadfcd;
@@ -115,7 +115,7 @@ h1 em::after { content: ""; position: absolute; height: 5px; left: 2%; right: 1%
 .feedback-bar strong, .feedback-bar small { display: block; }
 .feedback-bar small { margin-top: 4px; opacity: .78; }
 .feedback-bar button { border: 1px solid rgba(255,252,245,.35); background: rgba(255,252,245,.12); color: var(--paper-light); padding: 11px 15px; cursor: pointer; }
-.feedback-bar button span { font-size: 9px; opacity: .75; margin-left: 8px; }
+.feedback-bar button span { font-size: 9px; margin-left: 8px; }
 
 .result-screen { text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; }
 .result-emblem { width: 94px; height: 105px; display: grid; place-items: center; background: var(--red); color: var(--paper-light); clip-path: polygon(8% 0,94% 5%,84% 91%,48% 100%,10% 88%); font: 700 45px "Yu Mincho", serif; margin-bottom: 22px; }
